@@ -73,7 +73,7 @@ model:
             ucg_rate: 0.1
             target: sgm.modules.encoders.modules.FrozenT5Embedder
             params:
-              model_dir: "google/t5-v1_1-xxl"
+              model_dir: "/home/hsharm48/codes/CogVideo/sat/CogVideoX1.5-5B-SAT/t5-v1_1-xxl"
               max_length: 224
 
 
@@ -81,7 +81,7 @@ model:
     target : vae_modules.autoencoder.VideoAutoencoderInferenceWrapper
     params:
         cp_size: 1
-        ckpt_path: "cogvideox-5b-sat/vae/3d-vae.pt"
+        ckpt_path: "/home/hsharm48/codes/CogVideo/sat/CogVideoX1.5-5B-SAT/vae/3d-vae.pt"
         ignore_keys: ['loss']
 
         loss_config:

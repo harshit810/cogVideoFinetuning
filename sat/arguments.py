@@ -106,7 +106,7 @@ def get_args(args_list=None, parser=None):
 
     if args.train_data_weights is not None:
         assert len(args.train_data_weights) == len(args.train_data)
-
+    override_deepspeed_config = False
     if args.mode != "inference":  # training with deepspeed
         args.deepspeed = True
         if args.deepspeed_config is None:  # not specified

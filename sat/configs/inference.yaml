@@ -1,14 +1,18 @@
 args:
-#  image2video: True  # True for image2video, False for text2video
   latent_channels: 16
   mode: inference
-  load: "{your CogVideoX SAT folder}/transformer" # This is for Full model without lora adapter
+  load: "/home/hsharm48/codes/CogVideo/sat/CogVideoX1.5-5B-SAT/transformer_i2v" # Full model path
   batch_size: 1
   input_type: txt
   input_file: configs/test.txt
-  sampling_image_size: [768, 1360] # remove this for I2V
+  sampling_image_size: [768, 1360] # Adjust as needed for memory constraints
   sampling_num_frames: 22  # 42 for 10 seconds and 22 for 5 seconds
   sampling_fps: 16
   bf16: True
   output_dir: outputs
   force_inference: True
+  deepspeed:
+    zero_optimization:
+      stage: 2  # Use stage 2 for better memory optimization, or stage 3 for larger gains
+    fp16:  # Enable FP16 for memory and performance improvements
+      enabled: True

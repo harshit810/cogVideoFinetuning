@@ -1,0 +1,164 @@
+_wandb:
+    value:
+        cli_version: 0.18.7
+        m: []
+        python_version: 3.12.2
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 55
+                - 71
+                - 83
+                - 98
+                - 105
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 55
+                - 71
+                - 83
+                - 98
+                - 105
+            "3":
+                - 2
+                - 23
+                - 55
+                - 61
+            "4": 3.12.2
+            "5": 0.18.7
+            "6": 4.46.3
+            "8":
+                - 5
+            "12": 0.18.7
+            "13": linux-x86_64
+adam_beta1:
+    value: 0.9
+adam_beta2:
+    value: 0.95
+adam_epsilon:
+    value: 1e-08
+adam_weight_decay:
+    value: 0.0001
+allow_tf32:
+    value: true
+cache_dir:
+    value: ~/.cache
+caption_column:
+    value: prompt.txt
+checkpointing_steps:
+    value: 1000
+checkpoints_total_limit:
+    value: null
+dataloader_num_workers:
+    value: 0
+dataset_config_name:
+    value: null
+dataset_name:
+    value: null
+enable_slicing:
+    value: true
+enable_tiling:
+    value: true
+fps:
+    value: 8
+gradient_accumulation_steps:
+    value: 1
+gradient_checkpointing:
+    value: true
+guidance_scale:
+    value: 6
+height:
+    value: 480
+hub_model_id:
+    value: null
+hub_token:
+    value: null
+id_token:
+    value: null
+instance_data_root:
+    value: video-dataset-disney
+learning_rate:
+    value: 0.001
+logging_dir:
+    value: logs
+lora_alpha:
+    value: 64
+lr_num_cycles:
+    value: 1
+lr_power:
+    value: 1
+lr_scheduler:
+    value: cosine_with_restarts
+lr_warmup_steps:
+    value: 200
+max_grad_norm:
+    value: 1
+max_num_frames:
+    value: 49
+max_train_steps:
+    value: 2070
+mixed_precision:
+    value: bf16
+num_train_epochs:
+    value: 30
+num_validation_videos:
+    value: 1
+optimizer:
+    value: adamw
+output_dir:
+    value: cogvideox-lora-single-node
+pretrained_model_name_or_path:
+    value: THUDM/CogVideoX-2b
+prodigy_beta3:
+    value: null
+prodigy_decouple:
+    value: false
+prodigy_safeguard_warmup:
+    value: false
+prodigy_use_bias_correction:
+    value: false
+push_to_hub:
+    value: false
+random_flip:
+    value: false
+rank:
+    value: 128
+report_to:
+    value: wandb
+resume_from_checkpoint:
+    value: null
+revision:
+    value: null
+scale_lr:
+    value: false
+seed:
+    value: 42
+skip_frames_end:
+    value: 0
+skip_frames_start:
+    value: 0
+tracker_name:
+    value: null
+train_batch_size:
+    value: 1
+use_8bit_adam:
+    value: false
+use_dynamic_cfg:
+    value: false
+validation_epochs:
+    value: 100
+validation_prompt:
+    value: DISNEY A black and white animated scene unfolds with an anthropomorphic goat surrounded by musical notes and symbols, suggesting a playful environment. Mickey Mouse appears, leaning forward in curiosity as the goat remains still. The goat then engages with Mickey, who bends down to converse or react. The dynamics shift as Mickey grabs the goat, potentially in surprise or playfulness, amidst a minimalistic background. The scene captures the evolving relationship between the two characters in a whimsical, animated setting, emphasizing their interactions and emotions:::A panda, dressed in a small, red jacket and a tiny hat, sits on a wooden stool in a serene bamboo forest. The panda's fluffy paws strum a miniature acoustic guitar, producing soft, melodic tunes. Nearby, a few other pandas gather, watching curiously and some clapping in rhythm. Sunlight filters through the tall bamboo, casting a gentle glow on the scene. The panda's face is expressive, showing concentration and joy as it plays. The background includes a small, flowing stream and vibrant green foliage, enhancing the peaceful and magical atmosphere of this unique musical performance
+validation_prompt_separator:
+    value: ':::'
+variant:
+    value: null
+video_column:
+    value: videos.txt
+width:
+    value: 720
