@@ -7,5 +7,6 @@ finetune/cogvideox-lora-single-node/checkpoint-2000/optimizer.bin filter=lfs dif
 *.png filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
+*.safetensors filter=lfs diff=lfs merge=lfs -text
 *.safetensors !text !filter !merge !diff
 *.bin !text !filter !merge !diff
