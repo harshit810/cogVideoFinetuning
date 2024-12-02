@@ -20,6 +20,11 @@ Experience the CogVideoX-5B model online at <a href="https://huggingface.co/spac
 📍 Visit <a href="https://chatglm.cn/video?lang=en?fr=osm_cogvideo">QingYing</a> and <a href="https://open.bigmodel.cn/?utm_campaign=open&_channel_track_key=OWTVNma9">API Platform</a> to experience larger-scale commercial video generation models.
 </p>
 
+## Fine-Tuning with LoRA
+The repository supports fine-tuning the CogVideo model using LoRA for customized video generation tasks. This feature allows you to adapt the model to specific datasets or styles, such as Disney-style or animated videos.
+
+Detailed instructions for fine-tuning are available in the [Fine-Tuning README](./finetune/README.md).
+
 ## Project Updates
 
 - 🔥🔥 **News**: ```2024/11/15```: We released the `CogVideoX1.5` model in the diffusers version. Only minor parameter adjustments are needed to continue using previous code.
