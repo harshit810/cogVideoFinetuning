@@ -10,4 +10,6 @@ output*
 test*
 venv
 *.mp4
-*.mp4
+finetune/cogvideox-lora-single-node-extended-backup/checkpoint-1000/*
+finetune/cogvideox-lora-single-node-extended/checkpoint-1000/*
+
