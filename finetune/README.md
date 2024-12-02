@@ -129,17 +129,19 @@ bash finetune_multi_rank.sh # Needs to be run on each node
 
 Prompt: "A panda playing a guitar in a bamboo forest"
 |Fine-tuned model|CogVideo base model THUDM/CogVideoX-2b|
+|----------------|--------------------------------------|
 | https://github.com/user-attachments/assets/2e0e56f1-e66e-497f-ae42-75a40504ead8 | https://github.com/user-attachments/assets/99f75f2b-6fa4-403b-80a8-e8f95238ee0f |
 
 
 Prompt2: "DISNEY A black and white animated scene unfolds with an anthropomorphic goat surrounded by musical notes and symbols, suggesting a playful environment. Mickey Mouse appears, leaning forward in curiosity as the goat remains still. The goat then engages with Mickey, who bends down to converse or react. The dynamics shift as Mickey grabs the goat, potentially in surprise or playfulness, amidst a minimalistic background. The scene captures the evolving relationship between the two characters in a whimsical, animated setting, emphasizing their interactions and emotions"
 |Fine-tuning First run|Fine-tuning Second run|Fine-tuning Third run|
-
+|---------------------|----------------------|---------------------|
 | https://github.com/user-attachments/assets/053ab6f4-c003-47bd-86d7-23956a60272a | https://github.com/user-attachments/assets/75c9cbd7-d1f2-4d56-991d-0260cf64366c | https://github.com/user-attachments/assets/5c7bfa73-1fae-4ffd-a188-b6c91ee98fdd |
 
 
 Prompt3: "A panda, dressed in a small, red jacket and a tiny hat, sits on a wooden stool in a serene bamboo forest. The panda's fluffy paws strum a miniature acoustic guitar, producing soft, melodic tunes. Nearby, a few other pandas gather, watching curiously and some clapping in rhythm. Sunlight filters through the tall bamboo, casting a gentle glow on the scene. The panda's face is expressive, showing concentration and joy as it plays. The background includes a small, flowing stream and vibrant green foliage, enhancing the peaceful and magical atmosphere of this unique musical performance"
 |Fine-tuning First run|Fine-tuning Second run|Fine-tuning Third run|
+|---------------------|----------------------|---------------------|
 | https://github.com/user-attachments/assets/d9b3fa19-966b-4348-bc65-ac0339c9ad52 | https://github.com/user-attachments/assets/992be807-db0f-450a-8200-8e01b149a292 | https://github.com/user-attachments/assets/bcb4ce84-f0f8-4cb4-bb07-6f2f2dbc2b87 |
 
 
