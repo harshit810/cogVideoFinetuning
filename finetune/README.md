@@ -128,9 +128,24 @@ bash finetune_multi_rank.sh # Needs to be run on each node
 ## Results after fine-tuning
 
 Prompt: "A panda playing a guitar in a bamboo forest"
-|Fine-tuned model|CogVideo base model THUDM/CogVideoX-2b|
-|----------------|--------------------------------------|
-|<video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/2e0e56f1-e66e-497f-ae42-75a40504ead8" type="video/mp4"> Your browser does not support the video tag. </video>|<video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/99f75f2b-6fa4-403b-80a8-e8f95238ee0f" type="video/mp4"> Your browser does not support the video tag. </video>|
+<table style="width: 100%; text-align: center; margin-top: 20px;">
+  <thead>
+    <tr>
+      <th>Fine-tuned model</th>
+      <th>CogVideo base model THUDM/CogVideoX-2b</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <video src="https://github.com/user-attachments/assets/2e0e56f1-e66e-497f-ae42-75a40504ead8" width="100%" controls autoplay loop></video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/99f75f2b-6fa4-403b-80a8-e8f95238ee0f" width="100%" controls autoplay loop></video>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 Prompt2: "DISNEY A black and white animated scene unfolds with an anthropomorphic goat surrounded by musical notes and symbols, suggesting a playful environment. Mickey Mouse appears, leaning forward in curiosity as the goat remains still. The goat then engages with Mickey, who bends down to converse or react. The dynamics shift as Mickey grabs the goat, potentially in surprise or playfulness, amidst a minimalistic background. The scene captures the evolving relationship between the two characters in a whimsical, animated setting, emphasizing their interactions and emotions"
