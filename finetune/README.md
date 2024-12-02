@@ -149,18 +149,52 @@ Prompt: "A panda playing a guitar in a bamboo forest"
 
 
 Prompt2: "DISNEY A black and white animated scene unfolds with an anthropomorphic goat surrounded by musical notes and symbols, suggesting a playful environment. Mickey Mouse appears, leaning forward in curiosity as the goat remains still. The goat then engages with Mickey, who bends down to converse or react. The dynamics shift as Mickey grabs the goat, potentially in surprise or playfulness, amidst a minimalistic background. The scene captures the evolving relationship between the two characters in a whimsical, animated setting, emphasizing their interactions and emotions"
-|Fine-tuning First run|Fine-tuning Second run|Fine-tuning Third run|
-|---------------------|----------------------|---------------------|
-|<video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/053ab6f4-c003-47bd-86d7-23956a60272a" type="video/mp4"> Your browser does not support the video tag. </video>|<video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/75c9cbd7-d1f2-4d56-991d-0260cf64366c" type="video/mp4"> Your browser does not support the video tag. </video>|<video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/5c7bfa73-1fae-4ffd-a188-b6c91ee98fdd" type="video/mp4"> Your browser does not support the video tag. </video>|
-
+<table style="width: 100%; text-align: center; margin-top: 20px;">
+  <thead>
+    <tr>
+      <th>Fine-tuning First run</th>
+      <th>Fine-tuning Second run</th>
+      <th>Fine-tuning Third run</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <video src="https://github.com/user-attachments/assets/053ab6f4-c003-47bd-86d7-23956a60272a" width="100%" controls autoplay loop></video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/75c9cbd7-d1f2-4d56-991d-0260cf64366c" width="100%" controls autoplay loop></video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/5c7bfa73-1fae-4ffd-a188-b6c91ee98fdd" width="100%" controls autoplay loop></video>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 Prompt3: "A panda, dressed in a small, red jacket and a tiny hat, sits on a wooden stool in a serene bamboo forest. The panda's fluffy paws strum a miniature acoustic guitar, producing soft, melodic tunes. Nearby, a few other pandas gather, watching curiously and some clapping in rhythm. Sunlight filters through the tall bamboo, casting a gentle glow on the scene. The panda's face is expressive, showing concentration and joy as it plays. The background includes a small, flowing stream and vibrant green foliage, enhancing the peaceful and magical atmosphere of this unique musical performance"
-|Fine-tuning First run|Fine-tuning Second run|Fine-tuning Third run|
-|---------------------|----------------------|---------------------|
-|<video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/d9b3fa19-966b-4348-bc65-ac0339c9ad52" type="video/mp4"> Your browser does not support the video tag. </video>|<video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/992be807-db0f-450a-8200-8e01b149a292" type="video/mp4"> Your browser does not support the video tag. </video>|<video width="320" height="240" controls> <source src="https://github.com/user-attachments/assets/bcb4ce84-f0f8-4cb4-bb07-6f2f2dbc2b87" type="video/mp4"> Your browser does not support the video tag. </video>|
-
-
-
+<table style="width: 100%; text-align: center; margin-top: 20px;">
+  <thead>
+    <tr>
+      <th>Fine-tuning First run</th>
+      <th>Fine-tuning Second run</th>
+      <th>Fine-tuning Third run</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <video src="https://github.com/user-attachments/assets/d9b3fa19-966b-4348-bc65-ac0339c9ad52" width="100%" controls autoplay loop></video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/992be807-db0f-450a-8200-8e01b149a292" width="100%" controls autoplay loop></video>
+      </td>
+      <td>
+        <video src="https://github.com/user-attachments/assets/bcb4ce84-f0f8-4cb4-bb07-6f2f2dbc2b87" width="100%" controls autoplay loop></video>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
