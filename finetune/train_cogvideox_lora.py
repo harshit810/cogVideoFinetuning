@@ -1476,7 +1476,8 @@ def main(args):
         )
         transformer = transformer.to(dtype)
         transformer_lora_layers = get_peft_model_state_dict(transformer)
-
+        print("-"*100)
+        print(f"saving lora weights to directory {args.output_dir}")
         CogVideoXPipeline.save_lora_weights(
             save_directory=args.output_dir,
             transformer_lora_layers=transformer_lora_layers,
@@ -1500,7 +1501,7 @@ def main(args):
         lora_scaling = args.lora_alpha / args.rank
         pipe.load_lora_weights(args.output_dir, adapter_name="cogvideox-lora")
         pipe.set_adapters(["cogvideox-lora"], [lora_scaling])
-
+        epoch = 0
         # Run inference
         validation_outputs = []
         if args.validation_prompt and args.num_validation_videos > 0:
